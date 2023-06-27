@@ -2,6 +2,7 @@
 	import { page } from '$app/stores';
 	import logo from '$lib/images/svelte-logo.svg';
 	import github from '$lib/images/github.svg';
+	import tao from '$lib/images/tao-logo.png';
 
 	import {
 		Avatar,
@@ -24,17 +25,16 @@
 		let:toggle
 	>
 		<NavBrand href="/">
-			<Avatar
-				src="https://pbs.twimg.com/profile_images/1632561586534772737/RH4PMMnu_400x400.jpg"
-				class="mr-3"
+			<img
+				src={tao}
+				class="mr-3 w-24"
 				alt="Seers Logo"
 			/>
-			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Seers</span>
+			<!-- <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">TAO</span> -->
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden}>
 			<NavLi href="/">Home</NavLi>
-			<NavLi href="/about">About</NavLi>
 		</NavUl>
 	</Navbar>
 </div>

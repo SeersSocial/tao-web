@@ -45,6 +45,7 @@
 		"@popperjs/core": "^2.11.7",
 		"classnames": "^2.3.2",
 		"flowbite": "^1.6.5",
-		"flowbite-svelte": "^0.35.3"
+		"flowbite-svelte": "^0.35.3",
+		"sine-waves": "^0.3.0"
 	}
 }
