@@ -34,7 +34,7 @@
 		</NavBrand>
 		<NavHamburger on:click={toggle} />
 		<NavUl {hidden}>
-			<NavLi href="/">Home</NavLi>
+			<NavLi href="https://mirror.xyz/0x3DAE1c6656370453F2c7439E0aAAc8A9a45AD4d4/SRRtA6PbHH3naqtKjyNXczxlzABbxDmy-JZdT3cJhsA">About</NavLi>
 		</NavUl>
 	</Navbar>
 </div>

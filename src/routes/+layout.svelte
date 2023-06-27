@@ -30,7 +30,7 @@
 			<div>
 			  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
 			  <FooterLinkGroup>
-				<FooterLink liClass="mb-4" href="/">Documentation</FooterLink>
+				<FooterLink liClass="mb-4" href="https://mirror.xyz/0x3DAE1c6656370453F2c7439E0aAAc8A9a45AD4d4/SRRtA6PbHH3naqtKjyNXczxlzABbxDmy-JZdT3cJhsA">Documentation</FooterLink>
 				<FooterLink liClass="mb-4" href="/">FAQ</FooterLink>
 			  </FooterLinkGroup>
 			</div>
