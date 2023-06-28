@@ -5,7 +5,7 @@
 	import sound_waves from '$lib/images/sound-waves.gif';
   	import { Parallax, ParallaxLayer, StickyLayer } from 'svelte-parallax';
 
-  	import { Avatar, Button, Card, CarouselTransition, Blockquote } from 'flowbite-svelte'
+  	import { Avatar, Button, Card, CarouselTransition, Blockquote, Accordion, AccordionItem } from 'flowbite-svelte'
 	import { offset } from '@popperjs/core';
 	
 	export const images = [
@@ -111,4 +111,39 @@
 			</div>
 		</div>
 	</div>
+</section>
+
+<section class="w-full flex flex-col gap-8 text-2xl justify-center mt-4 p-4">
+	<h3  class="font-bold mb-2">Frequently Asked Questions</h3>
+					
+<Accordion class="w-full">
+	<AccordionItem>
+	  <span slot="header" class="text-xl font-medium">What is TAO protocol?</span>
+	  <p class="mb-2 text-lg">The TAO protocol offers loans to holders of ICP, ETH, and BTC.
+		These loans are offered in the form of TAO, a collateral-backed, stable and liquid ICRC-2 token. 
+		The TAO protocol operates as a trust-minimized set of canisters smart contracts on the Internet Computer.
+		</p>
+	</AccordionItem>
+	<AccordionItem>
+	  <span slot="header"  class="text-xl font-medium">How can I use TAO protocol?</span>
+	  <p class="mb-2 text-lg">Any holder of ICP, ETH, or BTC can lock these assets as collaterals for a loan. 
+		Anyone can purchase the TAO token on decentralized exchanges as a stable asset.</p>
+	</AccordionItem>
+	<AccordionItem>
+		<span slot="header"  class="text-xl font-medium">What are the key benefits of TAO?</span>
+		<p class="mb-2 text-lg">The TAO protocol is a port of RAI/DAI, one of the most proven stablecoins. 
+			The TAO token will adopt the stability mechanism of RAI, avoiding excessive depegging seen in other collateralized stablecoins.
+			</p><p class="mb-2 text-lg">Users can also receive rewards for using TAO, by taking out a loan in TAO or also providing TAO as liquidity. 
+			Rewards are distributed in the form of LAO, the operating DAO token of the TAO protocol.
+			</p>
+	  </AccordionItem>
+	  <AccordionItem>
+		<span slot="header"  class="text-xl font-medium">Why on the Internet Computer?</span>
+		<p class="mb-2 text-lg">
+			Running on top of the IC allows us to optimize costs for users and provide different kinds of collaterals not found in other blockchains, with a minimal amount of trust. 
+		</p>
+	  </AccordionItem>
+	  
+  </Accordion>
+
 </section>
